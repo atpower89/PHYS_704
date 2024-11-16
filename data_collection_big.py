@@ -63,5 +63,5 @@ if __name__ == "__main__":
     args = parser.parse_args()
     
     # Call main function with arguments
-    for N in [24, 25, 28, 29, 32, 33]:
+    for N in range(21, 37):
         run_simulation(N, args.numSeeds, args.alg)
